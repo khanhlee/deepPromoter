@@ -13,10 +13,6 @@ Print vectors using FastText model:
 - *fasttext print-sentence-vectors model.bin < fasttext_file > vector_file*
 
 ### Step 4
-Use "linux_svm.py" to predict the generated file:
-- *python linux_svm.py spot.wN5.cv.csv vector_file output_file*
+Use "promoter_cnn.py" to train and evaluate  model based on generated vectors:
+- *python promoter_cnn.py vector_file
 
-### Step 5
-Check in *output_file* for the result:
-- '1' is promoter
-- '0' is non-promoter
