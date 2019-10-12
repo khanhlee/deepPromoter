@@ -14,5 +14,5 @@ Print vectors using FastText model:
 
 ### Step 4
 Use "promoter_cnn.py" to train and evaluate  model based on generated vectors:
-- *python promoter_cnn.py vector_file
+- *python promoter_cnn.py vector_file*
 
