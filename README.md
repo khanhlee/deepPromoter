@@ -16,3 +16,6 @@ Print vectors using FastText model:
 Use "promoter_cnn.py" to train and evaluate  model based on generated vectors:
 - *python promoter_cnn.py vector_file*
 
+## Citation
+Please cite our paper as:
+>Le NQK, Yapp EKY, Nagasundaram N and Yeh H-Y (2019) Classifying Promoters by Interpreting the Hidden Information of DNA Sequences via Deep Learning and Combination of Continuous FastText N-Grams. *Front. Bioeng. Biotechnol.* 7:305. doi: 10.3389/fbioe.2019.00305
